@@ -1,1 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
 
+    body {
+
+      color: #333333;
+      background-color: yellow; 
+    }
+
+    .kotak {
+      
+      margin: 20px;
+
+      padding: 15px;
+
+	  width: 300px;
+      height: 150px;
+      
+      border: 2px solid blue;
+
+      box-sizing: border-box;
+      
+      outline: 2px dashed red;
+    }
+
+    h1 {
+      text-align: center;
+    }
+
+    p {
+      font-family: Arial;
+      font-size: 16px;
+      font-weight: bold;
+    }
+
+    a {
+      color: blue;
+    }
+    a:hover {
+      color: red;
+    }
+
+    ul {
+      list-style-type: square;
+      padding-left: 20px;
+    }
+
+    table {
+      border-collapse: collapse;
+      width: 100%;
+    }
+    td, th {
+      border: 1px solid black;
+      padding: 8px;
+      text-align: left;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Belajar CSS</h1>
+
+  <div class="kotak">
+    <p>Ini adalah kotak dengan margin, padding, dan border.</p>
+  </div>
+
+  <a href="#">Link CSS</a>
+
+  <ul>
+    <li>Item 1</li>
+    <li>Item 2</li>
+  </ul>
+
+  <table>
+    <tr>
+      <th>Nama</th>
+      <th>Nilai</th>
+    </tr>
+    <tr>
+      <td>Ragenna</td>
+      <td>95</td>
+    </tr>
+  </table>
+
+</body>
+</html>
