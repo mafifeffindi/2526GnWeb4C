@@ -1,1 +1,91 @@
-
+<!DOCTYPE html>
+<html>
+    <style>
+        /*ini adalah bagian komentar css*/
+        p {
+            color: aqua /*disini terdapat error karena kurang titik koma*/
+            text-align: center; 
+        }
+        h1{
+            color: red;
+            background-color: lightblue;
+            font-style: italic;
+            text-align: center;
+        }
+        body{
+            background-color: silver;
+        }
+        p.dotted{
+            border-style: solid;
+        }
+        p{
+            margin-top: 25px;
+            margin-bottom: 50px;
+            margin-right: 100px;
+            margin-left: 100px;
+        }
+        div{
+            padding: 100px 25px 100px 10px;
+            background-color: aqua;
+            border: solid green;
+            height: 100%;
+            width: 100%;
+        }
+        a:link{
+            color: red;
+        }
+        a:visited{
+            color: green;
+        }
+        a:hover{
+            color: yellow;
+        }
+        a:active{
+            color:blue;
+        }
+        ul{
+            list-style-type: disc;
+        }
+        table, th, td{
+            border: 1px solid;
+        }
+    </style>
+    <head>
+        <title>belajar CSS</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <section>
+            <h1>welcome</h1>
+            <p class="dotted">Ziyad Zainul Azkiya' Fafa</p>
+            <div>hello word</div>
+        </section>
+        <section>
+            <i class="fas fa-cloud"></i>
+            <i class="fas fa-heart"></i>
+            <i class="fas fa-car"></i>
+            <i class="fas fa-file"></i>
+            <i class="fas fa-bars"></i>
+            <p><a href="https://www.w3schools.com/css/css_link.asp">klik di sini</a></p>
+        </section>
+        <section>
+            <ul>
+              <li>home</li>
+              <li>profile</li>
+              <li>page</li>
+            </ul>
+        <table>
+            <tr>
+                <th>nama</th>
+                <th>kelas</th>
+            </tr>
+            <tr>
+                <th>ziyad zainul azkiya' fafa</th>
+                <th>4C</th>
+            </tr>
+        </table>
+    </section>
+       
+    </body>
+</html>
