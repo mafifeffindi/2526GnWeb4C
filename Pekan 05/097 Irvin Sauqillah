@@ -63,7 +63,7 @@
   <h1>Belajar CSS</h1>
 
   <div class="kotak">
-    <p>Ini adalah kotak dengan margin, padding, dan border.</p>
+    <p>kotak margin, padding, dan border.</p>
   </div>
 
   <a href="#">Link CSS</a>
