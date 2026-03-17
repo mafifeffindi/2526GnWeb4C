@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CSS Lengkap - Edric</title>
+
+<style>
+/* ================= CSS COMMENTS ================= */
+/* Ini adalah komentar CSS */
+
+/* ================= GLOBAL ================= */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #0f172a;
+    color: white;
+}
+
+/* ================= HEADER ================= */
+.header {
+    background: linear-gradient(135deg, #2563eb, #06b6d4);
+    text-align: center;
+    padding: 30px;
+}
+
+/* ================= CONTAINER ================= */
+.container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+/* ================= CARD ================= */
+.card {
+    background: #1e293b;
+    padding: 20px;
+    border-radius: 15px;
+    transition: all 0.3s ease;
+    position: relative;
+    overflow: hidden;
+}
+
+.card:hover {
+    transform: translateY(-10px) scale(1.03);
+    box-shadow: 0 20px 40px rgba(0,0,0,0.5);
+}
+
+.card::before {
+    content: "";
+    position: absolute;
+    width: 150%;
+    height: 150%;
+    background: linear-gradient(45deg, transparent, rgba(0,255,255,0.3), transparent);
+    top: -50%;
+    left: -50%;
+    transform: rotate(25deg);
+    opacity: 0;
+    transition: 0.5s;
+    pointer-events: none; /
+}
+
+.card:hover::before {
+    opacity: 1;
+}
+
+/* ================= COLORS ================= */
+.colors {
+    color: #f97316;
+}
+
+/* ================= BACKGROUND ================= */
+.bg {
+    background: linear-gradient(270deg, #ff6a00, #ee0979, #00c6ff);
+    background-size: 600% 600%;
+    animation: gradientMove 6s ease infinite;
+}
+
+@keyframes gradientMove {
+    0% {background-position: 0%}
+    50% {background-position: 100%}
+    100% {background-position: 0%}
+}
+
+/* ================= BORDER ================= */
+.border {
+    border: 2px solid cyan;
+}
+
+/* ================= MARGIN & PADDING ================= */
+.spacing {
+    margin: 10px;
+    padding: 10px;
+    background: #facc15;
+    color: black;
+}
+
+/* ================= WIDTH / HEIGHT ================= */
+.size {
+    height: 80px;
+    background: limegreen;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* ================= BOX MODEL ================= */
+.box-model {
+    padding: 20px;
+    border: 5px solid red;
+    margin-top: 10px;
+}
+
+/* ================= OUTLINE ================= */
+.outline {
+    border: 2px solid white;
+    outline: 3px dashed cyan;
+}
+
+/* ================= TEXT ================= */
+.text {
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+/* ================= FONTS ================= */
+.font {
+    font-family: "Courier New", monospace;
+    font-style: italic;
+}
+
+/* ================= ICONS ================= */
+.icon {
+    font-size: 30px;
+    text-align: center;
+}
+
+/* ================= LINKS ================= */
+a {
+    color: cyan;
+    transition: 0.3s;
+}
+a:hover {
+    color: yellow;
+}
+
+/* ================= LIST ================= */
+ul {
+    list-style-type: square;
+}
+
+/* ================= TABLE ================= */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+th, td {
+    border: 1px solid white;
+    padding: 10px;
+}
+th {
+    background: cyan;
+    color: black;
+}
+
+/* ================= CODE BLOCK ================= */
+code {
+    display: block;
+    background: #000;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    color: lime;
+}
+</style>
+</head>
+
+<body>
+
+<!-- HEADER -->
+<div class="header">
+    <h1>Latihan CSS Lengkap</h1>
+    <p>Nama: Muhammad Edric Faustadanendra</p>
+    <p>NIM: 240631100084 | Kelas: 4C</p>
+    <p><i>Sumber: W3Schools CSS Tutorial</i></p>
+</div>
+
+<!-- CONTENT -->
+<div class="container">
+
+    <div class="card colors">
+        <h3>CSS Colors</h3>
+        <p>Contoh penggunaan warna (HEX & RGB)</p>
+    </div>
+
+    <div class="card bg">
+        <h3>CSS Background</h3>
+        <p>Background gradient + animasi</p>
+    </div>
+
+    <div class="card border">
+        <h3>CSS Border</h3>
+        <p>Border solid + radius</p>
+    </div>
+
+    <div class="card spacing">
+        <h3>CSS Margin & Padding</h3>
+        <p>Jarak luar dan dalam</p>
+    </div>
+
+    <div class="card">
+        <h3>CSS Width / Height</h3>
+        <div class="size">Ukuran Box</div>
+    </div>
+
+    <div class="card">
+        <h3>CSS Box Model</h3>
+        <div class="box-model">Content + Padding + Border + Margin</div>
+    </div>
+
+    <div class="card outline">
+        <h3>CSS Outline</h3>
+        <p>Outline berbeda dengan border</p>
+    </div>
+
+    <div class="card text">
+        <h3>CSS Text</h3>
+        <p>contoh text css</p>
+    </div>
+
+    <div class="card font">
+        <h3>CSS Fonts</h3>
+        <p>Font style italic monospace</p>
+    </div>
+
+    <div class="card icon">
+        <h3>CSS Icons</h3>
+        🔥 ⭐ 🚀
+    </div>
+
+    <div class="card">
+        <h3>CSS Links</h3>
+        <a href="https://www.w3schools.com/css/default.asp" target="_blank">Klik</a>
+    </div>
+
+    <div class="card">
+        <h3>CSS Lists</h3>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+        </ul>
+    </div>
+
+    <div class="card">
+        <h3>CSS Tables</h3>
+        <table>
+            <tr>
+                <th>No</th>
+                <th>Materi</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>CSS</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>HTML</td>
+            </tr>
+        </table>
+    </div>
+
+    <!-- CSS ERROR SECTION -->
+    <div class="card">
+        <h3>CSS Errors</h3>
+        <p><b>Contoh Salah:</b></p>
+        <code>color red;</code>
+        <p>Penjelasan: Harus menggunakan tanda titik dua (:)</p>
+
+        <p><b>Contoh Benar:</b></p>
+        <code>color: red;</code>
+    </div>
+
+</div>
+
+</body>
+</html>
