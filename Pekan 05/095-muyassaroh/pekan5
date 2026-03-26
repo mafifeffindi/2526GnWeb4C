@@ -1,1 +1,117 @@
-240631100095 muyassaroh
+<!DOCTYPE html>
+<html>
+<head>
+<title>Font Awesome Icons</title> 
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+<!--Get your own code at fontawesome.com-->
+
+</head>
+<style>
+
+body { /*berfungsi untuk beground keseluruhan*/
+  background-color: lightblue;
+}
+
+div { /*berfungsi untuk begroun dalam kolom,border,margin,padding, height/widht*/
+  background-color: red;
+  p.outset {border-style: outset;}
+  margin-top: 10px;
+  margin-bottom: 5px;
+  margin-right: 50px;
+  margin-left: 200px;
+  padding: 0,5px 5px 5px 30px;
+  height: 30px;
+  width: 20%;
+}
+div.first { /*berfungsi untuk tulisan*/
+  yellow: 0.6;
+}
+
+.p2 { /*found*/
+  font-family: "Lucida Console", "Courier New", monospace;
+}
+
+p { /*berfungsi untuk outline atau kolom berwarna*/
+outline-color:yellow;
+padding: 3px;
+}
+p.outset {outline-style: outset;} /*kelanjutan dari outline*/
+
+table, th, td {
+  border: 2px solid blue;
+}
+
+a:link { /*link*/
+  color: blue;
+}
+
+p { 
+outline-color:yellow;
+padding: 3px;
+}
+p.outset {outline-style: outset;} 
+
+ul { /*list*/
+  list-style: square inside url("sqpurple.gif");
+  background: orange;
+  padding: 20px;
+}
+ul li {
+  background: mistyrose;
+  color: darkblue;
+  margin: 5px;
+}
+
+h4 {
+  text-decoration: underline;
+}
+
+</style>
+<body>
+
+
+<div class="first"> 
+  <p class="outset">CAFE MUYAS.</p>
+</div>
+
+<p class="p1">selamat datang di cafe muyas.</p>
+
+<p><a href="default.asp" target="_blank">muyassaroh1903@gmail.com</a></p>
+
+<p class="p2">bulan ramadhan penuh berkah.</p>
+  
+<p class="outset">MENU PESANAN.</p>
+
+<p>silahkan pilih menu yang diinginkan:</p>
+
+<ul>
+  <li>Coffee late</li>
+  <li>josua</li>
+  <li>Coca Cola</li>
+</ul>
+
+<p class="outset">TABEL PELANGGAN.</p>
+
+<table>
+  <tr>
+    <th>NO.ANTRIAN</th>
+    <th>NAMA</th>
+    <th>ALAMAT</th>
+  </tr>
+  <tr>
+    <td>001</td>
+    <td>SALMAN AL FARISI</td>
+    <td>TONAAN, BINOH</td>
+  </tr>
+</table>
+
+<h4>TERIMAKASIH SUDAH MEMBELI</h4>
+<i class="fas fa-heart" style="font-size:48px;color:red;"></i>
+<i class="fas fa-home" style="font-size:60px;color:yellow;"></i>
+
+</body>
+</html>
+
+
+
