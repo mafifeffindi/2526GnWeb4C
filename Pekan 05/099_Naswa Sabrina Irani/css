@@ -1,0 +1,456 @@
+Folder ini merupakan folder penugasan kegiatan belajar Pekan 05.
+Pada Pertemuan ini, mahasiswa melakukan:
+a. membuat folder dengan nama "XXX-Nama lengkap" (xxx adalah 3 digit terakhir NIM)
+b. mengunggah coding CSS ruang lingkup: 
+CSS Comments
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+/* This is a single-line comment */
+p {
+  color: red;
+} 
+</style>
+</head>
+<body>
+
+<p>Hello World!</p>
+<p>This paragraph is styled with CSS.</p>
+<p>CSS comments are not shown in the output.</p>
+
+</body>
+</html>
+
+
+CSS Errors
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+p.bad {
+  color: red
+  background-color: yellow;
+}
+</style>
+</head>
+<body>
+
+<h2>Error: Missing Semicolon</h2>
+
+<p class="bad">This is a paragraph.</p>
+
+</body>
+</html>
+
+
+
+CSS Colors
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1 style="background-color:DodgerBlue;">Hello World</h1>
+
+<p style="background-color:Tomato;">
+Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
+Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
+</p>
+
+</body>
+</html>
+
+
+CSS Backgrounds
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+  background-color: lightblue;
+}
+</style>
+</head>
+<body>
+
+<h1>Hello World!</h1>
+
+<p>Naswa Sabrina Irani</p>
+
+</body>
+</html>
+
+
+CSS Borders
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+p.dotted {border-style: dotted;}
+p.dashed {border-style: dashed;}
+p.solid {border-style: solid;}
+p.double {border-style: double;}
+p.groove {border-style: groove;}
+p.ridge {border-style: ridge;}
+p.inset {border-style: inset;}
+p.outset {border-style: outset;}
+p.none {border-style: none;}
+p.hidden {border-style: hidden;}
+p.mix {border-style: dotted dashed solid double;}
+</style>
+</head>
+<body>
+
+<h2>The border-style Property</h2>
+<p>Identitas:</p>
+
+<p class="dotted">Naswa SabRin</p>
+<p class="dashed">240631100099</p>
+<p class="solid">4C</p>
+<p class="double">Pendidikan Informatika</p>
+<p class="groove">Fakultas Keguruan dan Ilmu Pendidikan</p>
+<p class="ridge">PIF</p>
+<p class="inset">FKIP</p>
+<p class="outset">UNIVERSITAS TRUNODJOYO MADURA</p>
+<p class="none">tidak ada border</p>
+<p class="hidden">UTM</p>
+<p class="mix">Madura</p>
+
+</body>
+</html>
+
+
+CSS Margins
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+div {
+  border: 1px solid black;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  margin-right: 150px;
+  margin-left: 80px;
+  background-color: lightblue;
+}
+</style>
+</head>
+<body>
+
+<h2>Margin kotak kotak</h2>
+
+<div>yuhuu this is naswa, Semester 4</div>
+
+</body>
+</html>
+
+
+CSS Padding
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+div {
+  border: 1px solid black;
+  background-color: lightblue;
+  padding-top: 50px;
+  padding-right: 30px;
+  padding-bottom: 50px;
+  padding-left: 80px;
+}
+</style>
+</head>
+<body>
+
+<h2>Using individual padding properties</h2>
+
+<div>Hihihuhu</div>
+
+</body>
+</html>
+
+
+CSS Height / Width
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+div {
+  height: 100px;
+  width: 500px;
+  background-color: powderblue;
+}
+</style>
+</head>
+<body>
+
+<h2>Set the height and width of an element</h2>
+
+<div>elemen ini memiliki tinggi 100px dan width 500px </div>
+
+</body>
+</html>
+
+
+CSS Box Model
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+div {
+  width: 320px;
+  height: 50px;
+  padding: 10px;
+  border: 5px solid gray;
+  margin: 0;
+}
+</style>
+</head>
+<body>
+
+<h2>Calculate the total width:</h2>
+
+<img src="klematis4_big.jpg" width="350" height="263" alt="Klematis">
+<div>ini gambar bunga biru yang sudah diatur ukurannya</div>
+
+</body>
+</html>
+
+
+CSS Outline
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+p {
+outline-color:red;
+padding: 5px;
+}
+
+p.dotted {outline-style: dotted;}
+p.dashed {outline-style: dashed;}
+p.solid {outline-style: solid;}
+p.double {outline-style: double;}
+p.groove {outline-style: groove;}
+p.ridge {outline-style: ridge;}
+p.inset {outline-style: inset;}
+p.outset {outline-style: outset;}
+</style>
+</head>
+<body>
+
+<h2>The outline-style Property</h2>
+
+<p class="dotted">warna outline nya merah</p>
+<p class="dashed">warna outline nya merah</p>
+
+
+CSS Text
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+  color: blue;
+}
+
+h1 {
+  color: green;
+}
+
+h2 {
+  color: red;
+}
+</style>
+</head>
+<body>
+
+<h1>This is heading 1</h1>
+<h2>nsw</h2>
+<p>This is a paragraph. Buat paragraf</p>
+<p>Another paragraph.</p>
+
+</body>
+</html>
+
+
+
+CSS Fonts
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.p1 {
+  font-family: "Times New Roman", Times, serif;
+}
+
+.p2 {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.p3 {
+  font-family: "Lucida Console", "Courier New", monospace;
+}
+</style>
+</head>
+<body>
+
+<h1>CSS font-family</h1>
+<p class="p1">menggunakan Times New Roman font.</p>
+<p class="p2">menggunakan Arial font.</p>
+<p class="p3">Menggunakan Lucida Console font.</p>
+
+</body>
+</html>
+
+
+CSS Icons
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://youtu.be/F7sGJVUrkjQ?si=4mMByrrQhtr-9hl2" crossorigin="anonymous"></script>
+</head>
+<body>
+
+<i class="fas fa-cloud"></i>
+<i class="fas fa-heart"></i>
+<i class="fas fa-car"></i>
+<i class="fas fa-file"></i>
+<i class="fas fa-bars"></i>
+
+</body>
+</html>
+
+
+CSS Links
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+a:link {
+  background-color: yellow;
+}
+
+a:visited {
+  background-color: cyan;
+}
+
+a:hover {
+  background-color: lightgreen;
+}
+
+a:active {
+  background-color: hotpink;
+} 
+</style>
+</head>
+<body>
+
+<h1>Style a link with background-color</h1>
+
+<p><a href="default.asp" target="_blank">This is a link</a></p>
+
+<p><b>Note:</b> :hover must come after :link and :visited in order to be effective.</p>
+<p><b>Note:</b> :active must come after :hover in order to be effective.</p>
+
+</body>
+</html>
+
+
+CSS Lists
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+ul.a {list-style-type: circle;}
+ul.b {list-style-type: disc;}
+ul.c {list-style-type: square;}
+
+ol.d {list-style-type: upper-roman;}
+ol.e {list-style-type: lower-roman;}
+ol.f {list-style-type: lower-alpha;}
+ol.g {list-style-type: decimal;}
+</style>
+</head>
+<body>
+
+<h2>The list-style-type Property</h2>
+
+<p>Example of unordered lists:</p>
+<ul class="a">
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Marjan</li>
+</ul>
+
+<ul class="b">
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Marjan</li>
+</ul>
+
+<ul class="c">
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Marjan</li>
+</ul>
+
+<p>Example of ordered lists:</p>
+<ol class="d">
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Marjan</li>
+</ol>
+
+<ol class="e">
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Marjan</li>
+</ol>
+
+<ol class="f">
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Marjan</li>
+</ol>
+
+<ol class="g">
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Marjan</li>
+</ol>
+
+</body>
+</html>
+
+CSS Tables
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+table, th, td {
+  border: 1px solid;
+}
+</style>
+</head>
+<body>
+
+<h2>Add a border to a table:</h2>
+
+<table>
+  <tr>
+    <th>Firstname</th>
+    <th>Lastname</th>
+  </tr>
+  <tr>
+    <td>Naswa</td>
+    <td>Griffin</td>
+  </tr>
+  <tr>
+    <td>Sabrina</td>
+    <td>Griffin</td>
+  </tr>
+</table>
+
+</body>
+</html>
