@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body {
+            background-color: midnightblue;
+            font-family: timesnewromance;
+        }
+
+        h1 {
+            color: white;
+            text-align: center;
+            background-color: slateblue;
+        }
+
+        .text {
+            text-align: center;
+            color: gold;
+            font-size: 150%;
+        }
+
+        .box {
+            width: 250px;
+            height: 120px;
+        }
+
+        .box {
+            border: 3px solid cyan;
+            padding: 50px;
+            margin: 50px;
+            background-color: darkslategray;
+        }
+
+        .box {
+            outline: 4px dashed orangered;
+        }
+
+        a:link {
+            color: aqua;
+            text-decoration: none;
+        }
+
+        ul {
+            list-style-type: square;
+            color: whitesmoke;
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        th, td {
+            border: 1px solid whitesmoke;
+            padding: 10px;
+            text-align: center;
+        }
+
+        .error {
+            colr: black;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Tugas CSS Pekan 05</h1>
+
+    <p class="text">Hello Widiya</p>
+
+    <div class="box">
+        <a href="https://sites.google.com/view/bata-2526genap/">Klik Disini</a>
+        <p style="font-size:50px; text-align:center; color: hotpink;">
+            ✨💕
+        </p>
+    </div>
+
+    <ul>
+        <li>Star</li>
+        <li>Love</li>
+    </ul>
+
+    <table>
+        <tr>
+            <td style="text-align:center; background-color: dimgray; color: gold;">
+                NAMA
+            </td>
+            <td style="text-align:center; background-color: dimgray; color: gold;">
+                NIM
+            </td>
+            <td style="text-align:center; background-color: dimgray; color: gold;">
+                KELAS
+            </td>
+        </tr>
+        <tr>
+            <td style="text-align:center; background-color: teal; color: white;">
+                Mila Widiya Fitri
+            </td>
+            <td style="text-align:center; background-color: teal; color: white;">
+                240631100076
+            </td>
+            <td style="text-align:center; background-color: teal; color: white;">
+                4C
+            </td>
+        </tr>
+    </table>
+
+</body>
+</html>
