@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>My Simple Web</title>
+
+    <style>
+        body {
+            font-family: Verdana, sans-serif;
+            margin: 0;
+            background-color: #e8f0fe;
+        }
+
+        header {
+            background-color: #1abc9c;
+            color: #ffffff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #16a085;
+            padding: 12px;
+            text-align: center;
+        }
+
+        nav a {
+            color: #ecf0f1;
+            margin: 12px;
+            text-decoration: none;
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+        nav a:hover {
+            color: #ffdd59;
+        }
+
+        .container {
+            padding: 25px;
+            background-color: #ffffff;
+            margin: 25px;
+            border-radius: 12px;
+        }
+
+        footer {
+            background-color: #1abc9c;
+            color: #ffffff;
+            text-align: center;
+            padding: 12px;
+        }
+
+        .page {
+            display: none;
+        }
+
+        .active {
+            display: block;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>Website Belajar Coding</h1>
+    <p>Dasar HTML & CSS</p>
+</header>
+
+<nav>
+    <a onclick="showPage('beranda')">Beranda</a>
+    <a onclick="showPage('tentang')">Tentang Saya</a>
+    <a onclick="showPage('kontak')">Hubungi</a>
+</nav>
+
+<!-- BERANDA -->
+<div id="beranda" class="container page active">
+    <h2>Beranda</h2>
+    <p>Ini adalah halaman utama website sederhana.</p>
+
+    <ul>
+        <li>Struktur HTML</li>
+        <li>Heading dan Paragraf</li>
+        <li>Hyperlink</li>
+        <li>List</li>
+    </ul>
+
+    <p style="text-align:center;"><b>Jazilur Rohman 079</b></p>
+</div>
+
+<!-- TENTANG -->
+<div id="tentang" class="container page">
+    <h2>Tentang Saya</h2>
+    <p>
+        Nama saya <b>Jazilur Rohman (079)</b>.  
+        Saya sedang belajar HTML dan CSS.
+    </p>
+</div>
+
+<!-- KONTAK -->
+<div id="kontak" class="container page">
+    <h2>Hubungi</h2>
+
+    <p>Email: 
+        <a href="mailto:jazilur033@email.com">
+            jazilur033@email.com
+        </a>
+    </p>
+
+    <p>Instagram: 
+        <a href="https://instagram.com/Jazilur_" target="_blank">
+            @Jazilur_
+        </a>
+    </p>
+</div>
+
+<footer>
+    <p>© 2026 - Kelas Pemrograman Web</p>
+</footer>
+
+<script>
+function showPage(pageId) {
+    let pages = document.querySelectorAll('.page');
+    pages.forEach(page => page.classList.remove('active'));
+
+    document.getElementById(pageId).classList.add('active');
+}
+</script>
+
+</body>
+</html>
