@@ -1,0 +1,105 @@
+<!DOCTYPE html><html lang="id">
+<head>
+<meta charset="UTF-8">
+<title>Welcome Yorobun</title><style>
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f4f4f4;
+    display: flex;
+}
+
+/* SIDEBAR */
+nav {
+    width: 200px;
+    height: 100vh;
+    background: linear-gradient(180deg, #4b0082, #9370db);
+    padding-top: 20px;
+    position: fixed;
+}
+
+nav a {
+    display: block;
+    color: white;
+    padding: 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    background-color: rgba(255,255,255,0.2);
+}
+
+/* MAIN CONTENT */
+.main {
+    margin-left: 200px;
+    width: 100%;
+}
+
+header {
+    background-color: #6a0dad;
+    color: white;
+    padding: 20px;
+}
+
+.container {
+    padding: 20px;
+    background-color: white;
+    margin: 20px;
+    border-radius: 8px;
+}
+
+/* SECTION */
+section { display: none; }
+section:target { display: block; }
+#home { display: block; }
+section:target ~ #home { display: none; }
+
+/* FOTO PROFIL */
+.profile-img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+footer {
+    background-color: #6a0dad;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+</style></head><body><nav>
+    <a href="#home">Home</a>
+    <a href="#profil">Profil</a>
+    <a href="#kontak">Kontak</a>
+</nav><div class="main">
+<header>
+    <h1>Welcome Yorobun</h1>
+    <p>Pemrograman web</p>
+</header><!-- PROFIL --><section id="profil" class="container">
+    <h2>Profil</h2>
+    <img src="https://via.placeholder.com/150" class="profile-img">
+    <p>Nama: Naswa Sabrina Irani</p>
+    <p>NIM: 240631100099</p>
+    <p>Kelas: 4C</p>
+</section><!-- KONTAK --><section id="kontak" class="container">
+    <h2>Kontak</h2>
+    <p>WhatsApp: 089637725024</p>
+    <p>Instagram: @naswasani_25</p>
+    <p>Email: NaswaSani@gmail.com</p>
+</section><!-- HOME --><section id="home" class="container">
+    <h2>Selamat Datang</h2>
+    <p>Yuk belajar pemrograman web</p><h3>Materi Dasar HTML</h3>
+<ul>
+    <li>Struktur HTML</li>
+    <li>Heading dan Paragraf</li>
+    <li>Link</li>
+    <li>List</li>
+</ul>
+
+</section><footer>
+    <p>© 2026 - Pemrograman Web</p>
+</footer>
+</div></body>
+</html>
