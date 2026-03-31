@@ -1,1 +1,103 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Web izul wafa</title>
 
+    <style>
+        body {
+            font-family: Verdana, sans-serif;
+            margin: 0;
+            background: linear-gradient(to right, #74ebd5, #acb6e5);
+        }
+
+        header {
+            background-color: #1abc9c;
+            color: white;
+            padding: 20px;
+            text-align: left;
+        }
+
+        nav {
+            background-color: #16a085;
+            padding: 12px;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 8px 15px;
+            border-radius: 5px;
+            background-color: #149174;
+        }
+
+        nav a:hover {
+            background-color: #0e6655;
+        }
+
+        .content {
+            margin: 30px auto;
+            width: 80%;
+            background-color: #ffffff;
+            padding: 25px;
+            border-radius: 12px;
+            box-shadow: 0px 4px 10px rgba(0,0,0,0.2);
+        }
+
+        h2 {
+            color: #2c3e50;
+        }
+
+        ul {
+            list-style-type: square;
+        }
+
+        footer {
+            background-color: #1abc9c;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 20px;
+        }
+    </style>
+
+</head>
+
+<body>
+
+<header>
+    <h1>Web Belajar HTML</h1>
+    <p>Desain tampilan berbeda</p>
+</header>
+
+<nav>
+    <a href="#">Beranda</a>
+    <a href="#">Tentang</a>
+    <a href="#">Layanan</a>
+</nav>
+
+<div class="content">
+    <h2>Halo Pengunjung</h2>
+    <p>
+        Ini adalah contoh website dengan tampilan warna yang berbeda dan desain lebih modern.
+        Kamu bisa mengubah warna dan layout sesuai keinginan.
+    </p>
+
+    <h3>Materi yang Dipelajari</h3>
+    <ul>
+        <li>Tag HTML dasar</li>
+        <li>Styling dengan CSS</li>
+        <li>Layout sederhana</li>
+        <li>Desain responsif dasar</li>
+    </ul>
+</div>
+
+<footer>
+    <p>© 2026 - Web Design Dasar</p>
+</footer>
+
+</body>
+</html>
