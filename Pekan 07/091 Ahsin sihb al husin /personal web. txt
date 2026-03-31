@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<title>Welcome Web Aan</title>
+<style>
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f0fff4;
+}
+
+/* HEADER */
+header {
+    background: linear-gradient(90deg, #2e8b57, #66bb6a);
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+/* NAV */
+nav {
+    background-color: #3cb371;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    margin: 10px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #ffeb3b;
+}
+
+/* CONTENT */
+.container {
+    padding: 20px;
+    background-color: white;
+    margin: 20px;
+    border-radius: 8px;
+}
+
+/* SECTION */
+section { display: none; }
+section:target { display: block; }
+
+/* HOME default tampil */
+#home { display: block; }
+
+/* Saat profil/kontak dibuka, home disembunyikan */
+section:target ~ #home { display: none; }
+
+/* FOTO PROFIL */
+.profile-img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+/* FOOTER */
+footer {
+    background: linear-gradient(90deg, #2e8b57, #66bb6a);
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+</style>
+</head>
+<body>
+
+<header>
+    <h1>Welcome Web Aan</h1>
+    <p>Pemrograman Web</p>
+</header>
+
+<nav>
+    <a href="#home">Home</a>
+    <a href="#profil">Profil</a>
+    <a href="#kontak">Kontak</a>
+</nav>
+
+<!-- PROFIL -->
+<section id="profil" class="container">
+    <h2>Profil</h2>
+    <img src="https://via.placeholder.com/150" class="profile-img">
+    <p>Nama: Ahsin Sihab Al Husain</p>
+    <p>NIM: 240631100091</p>
+    <p>Kelas: 4C</p>
+</section>
+
+<!-- KONTAK -->
+<section id="kontak" class="container">
+    <h2>Kontak</h2>
+    <p>WhatsApp: 0858 5662 6457</p>
+    <p>Instagram: @alhusain.aan</p>
+    <p>Email: aanahsinsihabalhusain@gmail.com</p>
+</section>
+
+<!-- HOME -->
+<section id="home" class="container">
+    <h2>Selamat Datang</h2>
+    <p>Yuk belajar pemrograman web</p>
+
+    <h3>Materi Dasar HTML</h3>
+    <ul>
+        <li>Struktur HTML</li>
+        <li>Heading dan Paragraf</li>
+        <li>Link</li>
+        <li>List</li>
+    </ul>
+</section>
+
+<footer>
+    <p>© 2026 - Pemrograman Web</p>
+</footer>
+
+</body>
+</html>
