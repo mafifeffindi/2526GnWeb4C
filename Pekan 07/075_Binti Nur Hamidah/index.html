@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Website Midah</title>
+    <link rel="stylesheet" href="style.css">
+
+    <script>
+        function showPage(id) {
+            let pages = document.querySelectorAll('.page');
+            pages.forEach(p => p.style.display = 'none');
+            document.getElementById(id).style.display = 'block';
+        }
+    </script>
+</head>
+<body>
+
+<header>
+    <h1>Website Belajar</h1>
+    <p>Belajar Dasar HTML & CSS</p>
+</header>
+
+<div class="navbar">
+    <a onclick="showPage('home')">Home</a>
+    <a onclick="showPage('profil')">Profil</a>
+    <a onclick="showPage('kontak')">Kontak</a>
+</div>
+
+<div class="container">
+
+    <!-- HOME -->
+    <div id="home" class="page" style="display:block;">
+
+        <div class="card">
+            <h2>Materi HTML</h2>
+            <p>HTML digunakan untuk membuat struktur website.</p>
+            <ul>
+                <li>Tag dasar (html, head, body)</li>
+                <li>Heading dan paragraf</li>
+                <li>Link dan gambar</li>
+            </ul>
+            <p><a href="https://www.w3schools.com/html/" target="_blank">Mari Belajar HTML di W3Schools</a></p>
+        </div>
+
+        <div class="card">
+            <h2>Materi CSS</h2>
+            <p>CSS digunakan untuk mempercantik tampilan website.</p>
+            <ul>
+                <li>Warna dan background</li>
+                <li>Font dan teks</li>
+                <li>Layout sederhana</li>
+            </ul>
+            <p><a href="https://www.w3schools.com/css/default.asp" target="_blank">Mari Belajar CSS di W3School</a></p>
+        </div>
+
+        <div class="card">
+            <h2>Tutorial Video</h2>
+            <p>Kamu juga bisa belajar dari video:</p>
+            <p><a href="https://youtu.be/0oA1Z6UKM5M?si=QJ9p3rING-lwdy6O" target="_blank">Tutorial HTML Dasar (YouTube)</a></p>
+        </div>
+
+    </div>
+
+    <!-- PROFIL -->
+    <div id="profil" class="page" style="display:none;">
+        <div class="card center">
+            <h2>Profil</h2>
+            <p>Nama: Binti Nur Hamidah</p>
+            <p>NIM: 240631100075</p>
+        </div>
+    </div>
+
+    <!-- KONTAK -->
+    <div id="kontak" class="page" style="display:none;">
+        <div class="card center">
+            <h2>Kontak</h2>
+            <p>Email: bintihamida7@gmail.com</p>
+            <p>No HP: 085735110834</p>
+
+        </div>
+    </div>
+
+</div>
+
+<footer>
+    <p>© 2026 Website Midah</p>
+</footer>
+
+</body>
+</html>
