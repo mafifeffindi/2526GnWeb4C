@@ -1,23 +1,26 @@
 <!DOCTYPE html>
 <html lang="id">
 <head>
-    <title>Latihan PHP</title>
+    <meta charset="UTF-8">
+    <title>Profil Programmer</title>
 </head>
 <body>
 
-<h1>Belajar PHP</h1>
-
-<p>Ini adalah paragraf pertama dalam latihan PHP. Server side programming memungkinkan kita membuat halaman web dinamis.</p>
-
 <?php
-// Baris output PHP ke-1
-echo "Hari ini saya belajar server side programming.<br>";
+// Judul menggunakan tag HTML (H1)
+echo "<h1>Profil Programmer</h1>";
 
-// Baris output PHP ke-2
-echo "PHP adalah bahasa pemrograman yang populer untuk web development.<br>";
+// Garis pemisah
+echo "<hr>";
 
-// Baris output PHP ke-3
-echo "Saya senang bisa mempelajari PHP lebih dalam.";
+// Informasi minimal 5 baris (7 baris disediakan)
+echo "Nama : Andi<br>";
+echo "Bahasa favorit : PHP<br>";
+echo "Tahun belajar : 2026<br>";
+echo "Universitas : Universitas Teknologi Digital<br>";
+echo "Hobi : Coding & Bermain Game<br>";
+echo "Cita-cita : Full-Stack Developer<br>";
+echo "Alasan belajar web programming : Membangun aplikasi yang bermanfaat bagi banyak orang<br>";
 ?>
 
 </body>
