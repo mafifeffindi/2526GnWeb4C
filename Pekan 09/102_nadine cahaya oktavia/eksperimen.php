@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Eksperimen PHP</title>
+</head>
+<body>
+
+<h1>Data Diri Mahasiswa</h1>
+<hr>
+
+<?php
+echo "<h2>Profil Programmer</h2>";
+
+echo "Nama: Nadine Cahaya Oktavia <br>";
+
+echo "Bahasa favorit : Bahasa Indonesia <br>";
+
+echo "Universitas: Universitas Trunojoyo Madura <br>";
+
+echo "Hobi: Membaca <br>";
+
+echo "Cita-cita: Guru <br>";
+
+echo "Alasan belajar Web Programming: Ingin membuat website sendiri <br>";
+
+echo "Tahun belajar : 2026";
+?>
+
+</body>
+</html>
