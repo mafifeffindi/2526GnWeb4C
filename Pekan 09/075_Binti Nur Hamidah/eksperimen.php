@@ -1,7 +1,7 @@
 <?php
 
-echo "Profil Programmer<br>";
-echo "-------------------------<br><br>";
+echo "<h2>Profil Programmer</h2>";
+echo "<hr><br>";
 
 echo "Nama : Binti Nur Hamidah<br>";
 echo "NIM : 240631100075<br>";
