@@ -19,8 +19,8 @@
         echo "<p><strong>Nama:</strong> Izul Wafa Abdulloh</p>";
         echo "<p><strong>NIM:</strong> 107</p>";
         echo "<p><strong>Universitas:</strong> Universitas Trunojoyo Madura</p>";
-        echo "<p><strong>Hobi:</strong> Mendengarkan musik dan membaca novel</p>";
-        echo "<p><strong>Cita-cita:</strong> Menjadi Web Developer profesional</p>";
+        echo "<p><strong>Hobi:</strong> Mendengarkan musik dan menggambar</p>";
+        echo "<p><strong>Cita-cita:</strong> Menjadi guru</p>";
         echo "<p><strong>Alasan Belajar Web Programming:</strong> Ingin bisa membuat website sendiri dan membuka peluang karir di bidang teknologi</p>";
     ?>
 
