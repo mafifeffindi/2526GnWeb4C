@@ -24,7 +24,7 @@
 <p>Contoh integrasi HTML dan PHP dengan logika sederhana.</p>
 
 <?php
-$nama = "Al";
+$nama = "Alqianza";
 $prodi = "Pendidikan Informatika";
 $alamat = "Jawa Timur";
 $nilai = 85;
