@@ -34,13 +34,12 @@
 <hr>
 
 <?php
-$nama = "Al";
+$nama = "Alqianza";
 $universitas = "Universitas Trunojoyo Madura";
 $hobi = "Coding, Membaca";
 $cita = "Software Engineer";
 $alasan = "Ingin mengembangkan aplikasi berbasis web";
 
-// logika tambahan
 $tahunLahir = 2005;
 $umur = date("Y") - $tahunLahir;
 
@@ -53,7 +52,6 @@ echo "<tr><td>Umur</td><td>$umur tahun</td></tr>";
 echo "<tr><td>Motivasi</td><td>$alasan</td></tr>";
 echo "</table>";
 
-// tambahan output dinamis
 echo "<br><b>Status:</b> Mahasiswa Aktif";
 ?>
 
