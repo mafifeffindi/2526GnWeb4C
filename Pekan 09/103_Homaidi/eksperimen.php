@@ -1,26 +1,27 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Profil Programmer</title>
+</head>
+<body>
+
 <?php
-echo "saya belajar PHP";
-echo "<br>";
-echo "hello word";
-echo "<br>";
-echo "Nama : homaidi";
-echo "<br>";
-echo "Umur : ";
-$a = 10;
-$b = 11;
-$hasil = $a + $b;
-echo $hasil;
-echo "<br>";
-echo "Prodi : Pendidikan Informatika";
-echo "<br>";
-echo "Alamat : Sampang";
-echo "<br>";
-$kalimat = "saya belajar PHP";
-echo $kalimat;
-echo "<br";
-echo strlen ($kalimat);
-echo "<br>";
-echo "Motivasi";
-echo "<br>";
-echo "usaha tidak menghinati hasil";
+// Judul menggunakan tag HTML (H1)
+echo "<h1>Profil Programmer</h1>";
+
+// Garis pemisah
+echo "<hr>";
+
+// Informasi minimal 5 baris (7 baris disediakan)
+echo "Nama : Homaidi<br>";
+echo "Bahasa favorit : PHP<br>";
+echo "Tahun belajar : 2024<br>";
+echo "Universitas : Universitas Trunojoyo Madura<br>";
+echo "Hobi : Main Gitar<br>";
+echo "Cita-cita : Full-Stack Developer<br>";
+echo "Alasan belajar web programming : Membangun aplikasi yang bermanfaat bagi banyak orang<br>";
 ?>
+
+</body>
+</html>
