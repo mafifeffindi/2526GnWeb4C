@@ -1,0 +1,122 @@
+body{
+    font-family: Arial, sans-serif;
+    background: #eaf0f6;
+    margin: 40px;
+}
+
+/* Container */
+.container{
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    width: 85%;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+/* Judul */
+h2{
+    color: #2c3e50;
+    margin-bottom: 20px;
+}
+
+/* Tombol */
+.tambah,
+.edit,
+.hapus{
+    text-decoration: none;
+    color: white;
+    padding: 8px 12px;
+    border-radius: 5px;
+}
+
+/* Tambah */
+.tambah{
+    background: #3498db;
+}
+
+.tambah:hover{
+    background: #2980b9;
+}
+
+/* Edit */
+.edit{
+    background: #f1c40f;
+}
+
+.edit:hover{
+    background: #d4ac0d;
+}
+
+/* Hapus */
+.hapus{
+    background: #e74c3c;
+}
+
+.hapus:hover{
+    background: #c0392b;
+}
+
+/* Table */
+table{
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 20px;
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+/* Header */
+th{
+    background: #3498db;
+    color: white;
+}
+
+/* Isi tabel */
+th, td{
+    padding: 14px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Hover */
+tr:hover{
+    background: #eef6ff;
+}
+
+/* Form */
+form{
+    margin-top: 20px;
+}
+
+/* Input */
+input[type=text],
+input[type=password]{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+/* Focus */
+input[type=text]:focus,
+input[type=password]:focus{
+    border-color: #3498db;
+    outline: none;
+}
+
+/* Button */
+button{
+    background: #3498db;
+    color: white;
+    padding: 10px 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover{
+    background: #2980b9;
+}
