@@ -3,7 +3,8 @@
 session_start();
 
 if(!isset($_SESSION['login'])){
-    header("location:login.php");
+    header("Location:login.php");
+    exit;
 }
 
 include 'koneksi.php';
@@ -43,15 +44,25 @@ if(isset($_GET['cari']) && $_GET['cari'] != ''){
 
 <div class="container">
 
-    <h2>Data Mahasiswa</h2>
+    <div class="header">
 
-    <a href="tambah.php" class="tambah">
-        + Tambah Data
-    </a>
+        <h2>Data Mahasiswa</h2>
 
-    <a href="logout.php" class="hapus">
-        Logout
-    </a>
+        <div class="menu">
+
+            <a href="tambah.php" class="tambah">
+                + Tambah Data
+            </a>
+
+            <a href="logout.php" class="hapus">
+                Logout
+            </a>
+
+        </div>
+
+    </div>
+
+</div>
 
     <form method="GET">
 

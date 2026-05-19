@@ -12,10 +12,12 @@ if(isset($_POST['login'])){
         $_SESSION['login'] = true;
 
         header("location:index.php");
+        exit;
 
-    } else {
+    }else{
 
-        echo "<script>alert('Username atau Password salah!')</script>";
+        echo "<script>alert('Username atau Password salah!');</script>";
+
     }
 }
 
@@ -27,25 +29,32 @@ if(isset($_POST['login'])){
 <head>
 
     <title>Login</title>
+
     <link rel="stylesheet" href="style.css">
 
 </head>
 
 <body>
 
-<div class="container">
+<div class="login-box">
 
-    <h2>Login</h2>
+    <h2>Login Admin</h2>
 
     <form method="post">
 
-        <input type="text"
-        name="username"
-        placeholder="Username">
+        <input
+            type="text"
+            name="username"
+            placeholder="Masukkan Username"
+            required
+        >
 
-        <input type="password"
-        name="password"
-        placeholder="Password">
+        <input
+            type="password"
+            name="password"
+            placeholder="Masukkan Password"
+            required
+        >
 
         <button type="submit" name="login">
             Login
