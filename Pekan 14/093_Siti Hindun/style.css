@@ -1,0 +1,113 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background: #ffe6f0;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+}
+
+h1 {
+    color: #800020;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.box {
+    background: white;
+    padding: 25px;
+    border-radius: 20px;
+    box-shadow: 0 5px 15px rgba(128, 0, 32, 0.15);
+    margin-bottom: 20px;
+}
+
+.btn {
+    text-decoration: none;
+    padding: 10px 18px;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    margin-right: 10px;
+    display: inline-block;
+}
+
+.btn-tambah {
+    background: #ff69b4;
+}
+
+.btn-logout {
+    background: #800020;
+}
+
+.btn-edit {
+    background: #ff69b4;
+    padding: 6px 12px;
+    border-radius: 8px;
+    color: white;
+    text-decoration: none;
+}
+
+.btn-hapus {
+    background: #800020;
+    padding: 6px 12px;
+    border-radius: 8px;
+    color: white;
+    text-decoration: none;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 12px;
+    border: 2px solid #ff69b4;
+    border-radius: 10px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.btn-cari {
+    background: #800020;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.btn-cari:hover {
+    background: #5c0018;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(128, 0, 32, 0.15);
+    margin-top: 20px;
+    border: 1px solid #ddd;
+}
+
+th {
+    background: #800020;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+td {
+    padding: 12px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+tr:hover {
+    background: #fff0f5;
+}
