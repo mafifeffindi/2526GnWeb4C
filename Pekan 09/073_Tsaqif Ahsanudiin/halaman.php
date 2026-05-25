@@ -1,25 +1,19 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Latihan PHP - Profil Dev</title>
+    <title>Halaman PHP</title>
 </head>
 <body>
 
-    <h1>Eksplorasi Dunia Server-Side</h1>
-    
-    <p>PHP memungkinkan kita membuat halaman web yang dinamis. Di bawah ini adalah contoh data yang diproses langsung oleh server sebelum sampai ke browser Anda:</p>
+<h1>Belajar PHP Dasar</h1>
 
-    <?php
-        // 1. Menampilkan teks salam
-        echo "<h3>Halo, Selamat Datang di Localhost!</h3>";
-        
-        // 2. Menampilkan tanggal hari ini secara otomatis
-        echo "Hari ini adalah: <b>" . date("d F Y") . "</b><br>";
-        
-        // 3. Logika sederhana untuk memberikan pesan semangat
-        $status = "Semangat";
-        echo "Status Belajar: <span style='color: green; font-weight: bold;'>$status Koding!</span>";
-    ?>
+<p>Ini adalah contoh kombinasi HTML dan PHP dalam satu halaman.</p>
+
+<?php
+echo "<b>Hari ini saya belajar PHP</b><br>";
+echo "<i>PHP berjalan di server</i><br>";
+echo "<u>Saya ingin menjadi programmer handal</u><br>";
+?>
 
 </body>
 </html>
