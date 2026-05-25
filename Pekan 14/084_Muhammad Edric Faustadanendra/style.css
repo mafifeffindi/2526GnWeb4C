@@ -1,0 +1,259 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins', sans-serif;
+}
+
+body{
+    min-height:100vh;
+    background:
+    linear-gradient(135deg,#f8fafc,#dbeafe,#ede9fe);
+    color:#1e293b;
+}
+
+/* CONTAINER */
+
+.container-center{
+    min-height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+/* CARD */
+
+.card-custom{
+    background: rgba(255,255,255,0.7);
+    backdrop-filter: blur(18px);
+    border-radius:30px;
+    border:1px solid rgba(255,255,255,0.4);
+    box-shadow:0 10px 40px rgba(0,0,0,0.08);
+    animation:fadeIn 0.7s ease;
+}
+
+/* TITLE */
+
+.title{
+    font-weight:700;
+    color:#312e81;
+}
+
+/* TEXT */
+
+.text-secondary{
+    color:#64748b !important;
+}
+
+/* INPUT */
+
+.form-control{
+    border:none;
+    border-radius:15px;
+    padding:13px;
+    background:#f8fafc;
+    box-shadow: inset 0 2px 5px rgba(0,0,0,0.03);
+}
+
+.form-control:focus{
+    border:none;
+    background:white;
+    box-shadow:0 0 0 4px rgba(99,102,241,0.15);
+}
+
+/* BUTTON */
+
+.btn-custom{
+    background: linear-gradient(to right,#6366f1,#8b5cf6);
+    border:none;
+    border-radius:15px;
+    padding:12px;
+    color:white;
+    font-weight:600;
+    transition:0.3s;
+}
+
+.btn-custom:hover{
+    transform:translateY(-3px);
+    box-shadow:0 10px 20px rgba(99,102,241,0.25);
+}
+
+/* TABLE */
+
+.table{
+    border-radius:20px;
+    overflow:hidden;
+}
+
+.table thead{
+    background: linear-gradient(to right,#6366f1,#8b5cf6);
+    color:white;
+}
+
+.table th{
+    border:none;
+    padding:15px;
+}
+
+.table td{
+    background: rgba(255,255,255,0.65);
+    border:none;
+    padding:15px;
+    vertical-align:middle;
+}
+
+.table tbody tr{
+    transition:0.3s;
+}
+
+.table tbody tr:hover{
+    transform:scale(1.01);
+    background: rgba(255,255,255,0.9);
+}
+
+/* STAT CARD */
+
+.stat-card{
+    background: rgba(255,255,255,0.75);
+    border-radius:25px;
+    padding:25px;
+    text-align:center;
+    box-shadow:0 10px 30px rgba(0,0,0,0.08);
+    transition:0.3s;
+}
+
+.stat-card:hover{
+    transform:translateY(-5px);
+}
+
+.stat-card i{
+    font-size:40px;
+    color:#6366f1;
+    margin-bottom:10px;
+}
+
+.stat-card h3{
+    font-size:35px;
+    font-weight:700;
+    color:#312e81;
+}
+
+.stat-card p{
+    color:#64748b;
+}
+
+/* BUTTON BOOTSTRAP */
+
+.btn-success{
+    background: linear-gradient(to right,#22c55e,#16a34a);
+    border:none;
+    border-radius:12px;
+}
+
+.btn-warning{
+    border:none;
+    border-radius:10px;
+    color:white;
+    background: linear-gradient(to right,#f59e0b,#f97316);
+}
+
+.btn-danger{
+    border:none;
+    border-radius:10px;
+    background: linear-gradient(to right,#ef4444,#dc2626);
+}
+
+/* SELECT */
+
+select.form-control{
+    background:#f8fafc;
+    color:#1e293b;
+}
+
+select.form-control option{
+    background:white;
+    color:black;
+}
+
+/* FOOTER */
+
+footer{
+    color:#64748b;
+    font-size:14px;
+}
+
+/* SCROLLBAR */
+
+::-webkit-scrollbar{
+    width:10px;
+}
+
+::-webkit-scrollbar-thumb{
+    background:#cbd5e1;
+    border-radius:10px;
+}
+
+/* ANIMATION */
+
+@keyframes fadeIn{
+
+    from{
+        opacity:0;
+        transform:translateY(20px);
+    }
+
+    to{
+        opacity:1;
+        transform:translateY(0);
+    }
+
+}
+/* DARK MODE */
+
+.dark-mode{
+    background:
+    linear-gradient(135deg,#0f172a,#111827,#1e293b);
+    color:white;
+}
+
+.dark-mode .card-custom{
+    background: rgba(30,41,59,0.75);
+    color:white;
+}
+
+.dark-mode .title{
+    color:white;
+}
+
+.dark-mode .text-secondary{
+    color:#cbd5e1 !important;
+}
+
+.dark-mode .form-control{
+    background:#0f172a;
+    color:white;
+}
+
+.dark-mode .form-control::placeholder{
+    color:#94a3b8;
+}
+
+.dark-mode .table td{
+    background: rgba(15,23,42,0.8);
+    color:white;
+}
+
+.dark-mode .stat-card{
+    background: rgba(15,23,42,0.8);
+    color:white;
+}
+
+.dark-mode .stat-card p{
+    color:#cbd5e1;
+}
+
+.dark-mode footer{
+    color:#cbd5e1;
+}
