@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tugas Pekan 5 - TSAQIF AHSANUDIIN - 073</title>
+    <style>
+        /* Mengimpor Font Modern dari Google Fonts */
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+        /* CSS Reset & Pengaturan Body */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            /* Background gradasi agar lebih segar */
+            background: linear-gradient(135deg, #74ebd5 0%, #acb6e5 100%);
+            font-family: 'Poppins', sans-serif; /* Menggunakan font modern */
+            text-align: center;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            color: #333;
+        }
+
+        /* Styling Judul */
+        h1 {
+            color: #2c3e50;
+            font-size: 2.5rem;
+            margin-bottom: 5px;
+            text-shadow: 1px 1px 2px rgba(255,255,255,0.5);
+        }
+        
+        h3 {
+            color: #555;
+            font-weight: 400;
+            margin-bottom: 30px;
+        }
+        
+        h5 {
+            color: #888;
+            font-style: italic;
+            margin-top: 20px;
+            font-weight: 400;
+        }
+
+        /* Elemen Kotak (Card UI) */
+        .box {
+            background-color: rgba(255, 255, 255, 0.95); /* Putih dengan sedikit transparansi */
+            padding: 40px;
+            width: 85%;
+            max-width: 450px;
+            border-radius: 20px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1); /* Efek bayangan melayang */
+            border-top: 5px solid #4a6cf7; /* Aksen warna di atas */
+            
+            /* Animasi transisi yang mulus */
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        /* Interaktivitas: Kotak terangkat saat kursor diarahkan */
+        .box:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 15px 40px rgba(0, 0, 0, 0.15);
+        }
+
+        /* Styling Teks di dalam Kotak */
+        .box p {
+            color: #e74c3c;
+            font-size: 18px;
+            line-height: 1.6;
+            margin-bottom: 10px;
+            font-weight: 600;
+        }
+
+        /* Styling Area Link / Tombol */
+        .link-container {
+            margin-top: 35px;
+        }
+        
+        .link-container p {
+            color: #333;
+            font-size: 16px;
+            margin-bottom: 15px;
+            font-weight: 600;
+        }
+
+        /* Mengubah Tautan Menjadi Tombol (Button) */
+        a {
+            display: inline-block;
+            background-color: #4a6cf7;
+            color: white;
+            text-decoration: none;
+            font-weight: 600;
+            padding: 12px 30px;
+            border-radius: 30px; /* Membuat sudut tombol membulat penuh */
+            box-shadow: 0 5px 15px rgba(74, 108, 247, 0.4);
+            transition: all 0.3s ease; /* Transisi untuk semua perubahan (warna, ukuran) */
+        }
+
+        /* Interaktivitas: Tombol membesar dan berubah warna saat di-hover */
+        a:hover {
+            background-color: #e74c3c; /* Berubah jadi merah */
+            transform: scale(1.05); /* Membesar 5% */
+            box-shadow: 0 8px 20px rgba(231, 76, 60, 0.5);
+        }
+
+        /* Interaktivitas: Efek tertekan saat tombol diklik */
+        a:active {
+            transform: scale(0.95); /* Mengecil saat ditekan */
+        }
+
+    </style>
+</head>
+<body>
+
+    <h1>Tugas CSS</h1>
+    <h3>TSAQIF AHSANUDIIN - 073</h3>
+
+    <div class="box">
+        <p>Hallo teman-teman 👋</p>
+        <p>Kembali lagi bersama Tsaqif.</p>
+        <h5>Ini adalah tag h5</h5>
+    </div>
+
+    <div class="link-container">
+        <p>Ingin mendalami gaya visual web?</p>
+        <a href="https://www.w3schools.com/" target="_blank">Mulai Belajar CSS</a>
+    </div>
+
+</body>
+</html>
