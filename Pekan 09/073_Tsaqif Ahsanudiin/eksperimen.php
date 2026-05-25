@@ -1,23 +1,29 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Profil Programmer - Modifikasi</title>
+    <title>Eksperimen PHP</title>
 </head>
 <body>
 
-    <h1>Profil Mahasiswa</h1>
+<h1>Profil Mahasiswa</h1>
+<hr>
 
-    <hr>
+<?php
+echo "Nama: Tsaqif Ahsanudiin";
+echo "<br>";
 
-    <?php
-        // 3. Menampilkan minimal 5 baris informasi menggunakan PHP
-        echo "Nama: <b>Andi</b><br>";
-        echo "Universitas: <b>Universitas Gajah Mada</b><br>";
-        echo "Hobi: <b>Koding dan Membaca</b><br>";
-        echo "Cita-cita: <b>Fullstack Developer</b><br>";
-        echo "Alasan Belajar Web: <b>Ingin membangun platform digital yang bermanfaat bagi orang banyak.</b><br>";
-    ?>
+echo "Universitas: Universitas Trunodjoyo Madura";
+echo "<br>";
+
+echo "Hobi: Olahraga";
+echo "<br>";
+
+echo "Cita-cita: Pengusaha Sukses";
+echo "<br>";
+
+echo "Alasan belajar web programming: Ingin membuat website dan aplikasi modern";
+echo "<br>";
+?>
 
 </body>
 </html>
-
