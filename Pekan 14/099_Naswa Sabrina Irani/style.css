@@ -1,0 +1,141 @@
+body{
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+    margin: 40px;
+}
+
+/* Container */
+.container{
+    width: 85%;
+    margin: auto;
+    background: #ffffff;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+/* Judul */
+h2{
+    color: #8B0000;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Tombol */
+.tambah,
+.edit,
+.hapus{
+    text-decoration: none;
+    color: white;
+    padding: 8px 14px;
+    border-radius: 6px;
+    font-size: 14px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+/* Tambah */
+.tambah{
+    background: #FFC107;
+    color: #333;
+}
+
+.tambah:hover{
+    background: #e0aa00;
+}
+
+/* Edit */
+.edit{
+    background: #FFB300;
+    color: white;
+}
+
+.edit:hover{
+    background: #F57C00;
+}
+
+/* Hapus & Logout */
+.hapus{
+    background: #B22222;
+}
+
+.hapus:hover{
+    background: #8B0000;
+}
+
+/* Tabel */
+table{
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+th{
+    background: #8B0000;
+    color: white;
+}
+
+th, td{
+    border: 1px solid #dcdcdc;
+    padding: 12px;
+    text-align: center;
+}
+
+tr:nth-child(even){
+    background: #f9f9f9;
+}
+
+tr:hover{
+    background: #fff4cc;
+}
+
+/* Form */
+form{
+    margin-top: 20px;
+}
+
+/* Input */
+input[type=text],
+input[type=email],
+input[type=password]{
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    box-sizing: border-box;
+}
+
+input:focus{
+    border-color: #FFC107;
+    outline: none;
+    box-shadow: 0 0 5px rgba(255,193,7,0.5);
+}
+
+/* Button */
+button{
+    background: #8B0000;
+    color: white;
+    border: none;
+    padding: 10px 18px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+button:hover{
+    background: #B22222;
+}
+
+/* Form pencarian */
+form input[name="cari"]{
+    width: 300px;
+    display: inline-block;
+}
+
+form button{
+    margin-left: 5px;
+}
