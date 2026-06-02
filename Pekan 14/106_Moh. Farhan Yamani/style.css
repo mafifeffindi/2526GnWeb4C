@@ -1,0 +1,181 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #4facfe, #00f2fe);
+    margin: 0;
+    padding: 20px;
+    min-height: 100vh;
+}
+
+/* Container */
+.container {
+    width: 90%;
+    margin: auto;
+}
+
+/* Judul */
+h1 {
+    color: white;
+    text-align: center;
+    margin-bottom: 25px;
+    font-size: 35px;
+    text-shadow: 2px 2px 8px rgba(0,0,0,0.2);
+}
+
+/* Box */
+.box {
+    background: white;
+    padding: 25px;
+    border-radius: 20px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+    margin-bottom: 20px;
+    transition: 0.3s;
+}
+
+.box:hover {
+    transform: translateY(-3px);
+}
+
+/* Tombol */
+.btn {
+    text-decoration: none;
+    padding: 12px 20px;
+    border-radius: 12px;
+    color: white;
+    font-weight: bold;
+    margin-right: 10px;
+    display: inline-block;
+    transition: 0.3s;
+}
+
+/* Tombol Tambah */
+.btn-tambah {
+    background: linear-gradient(135deg, #4facfe, #00c6fb);
+}
+
+.btn-tambah:hover {
+    transform: scale(1.05);
+    box-shadow: 0 5px 12px rgba(0, 198, 251, 0.4);
+}
+
+/* Tombol Logout */
+.btn-logout {
+    background: linear-gradient(135deg, #005bea, #003b99);
+}
+
+.btn-logout:hover {
+    transform: scale(1.05);
+    box-shadow: 0 5px 12px rgba(0, 91, 234, 0.4);
+}
+
+/* Tombol Edit */
+.btn-edit {
+    background: linear-gradient(135deg, #4facfe, #00c6fb);
+    padding: 8px 14px;
+    border-radius: 8px;
+    color: white;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.btn-edit:hover {
+    opacity: 0.85;
+}
+
+/* Tombol Hapus */
+.btn-hapus {
+    background: linear-gradient(135deg, #005bea, #003b99);
+    padding: 8px 14px;
+    border-radius: 8px;
+    color: white;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.btn-hapus:hover {
+    opacity: 0.85;
+}
+
+/* Input */
+input[type="text"] {
+    width: 100%;
+    padding: 14px;
+    border: 2px solid #4facfe;
+    border-radius: 12px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    font-size: 15px;
+    transition: 0.3s;
+}
+
+input[type="text"]:focus {
+    outline: none;
+    border-color: #005bea;
+    box-shadow: 0 0 10px rgba(79, 172, 254, 0.4);
+}
+
+/* Tombol Cari */
+.btn-cari {
+    background: linear-gradient(135deg, #4facfe, #00c6fb);
+    color: white;
+    border: none;
+    padding: 12px 22px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 15px;
+    transition: 0.3s;
+}
+
+.btn-cari:hover {
+    transform: scale(1.05);
+}
+
+/* Table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+    margin-top: 20px;
+}
+
+/* Header Table */
+th {
+    background: linear-gradient(135deg, #4facfe, #00c6fb);
+    color: white;
+    padding: 15px;
+    text-align: center;
+    font-size: 16px;
+}
+
+/* Isi Table */
+td {
+    padding: 14px;
+    text-align: center;
+    border-bottom: 1px solid #f2f2f2;
+}
+
+/* Hover Row */
+tr:hover {
+    background: #eaf7ff;
+    transition: 0.3s;
+}
+
+/* Responsive */
+@media(max-width: 768px){
+
+    h1{
+        font-size: 26px;
+    }
+
+    table{
+        font-size: 13px;
+    }
+
+    .btn{
+        margin-top: 10px;
+    }
+
+}
