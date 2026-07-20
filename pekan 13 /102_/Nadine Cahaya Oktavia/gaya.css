@@ -1,0 +1,114 @@
+body{
+    font-family: Arial, sans-serif;
+    background-color: #f7f8fc;
+    margin: 40px;
+}
+
+/* Container */
+.container{
+    width: 80%;
+    margin: auto;
+    background-color: #ffffff;
+    padding: 25px;
+    border-radius: 10px;
+    border: 1px solid #e6e9f0;
+}
+
+/* Judul */
+h2{
+    color: #5a6473;
+    margin-bottom: 20px;
+}
+
+/* Tombol */
+.tambah,
+.edit,
+.hapus{
+    text-decoration: none;
+    color: white;
+    padding: 8px 12px;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+/* Tambah */
+.tambah{
+    background-color: #8bb8d9;
+}
+
+.tambah:hover{
+    background-color: #7aa9cb;
+}
+
+/* Edit */
+.edit{
+    background-color: #e7c79f;
+}
+
+.edit:hover{
+    background-color: #ddb88b;
+}
+
+/* Hapus */
+.hapus{
+    background-color: #dba4a4;
+}
+
+.hapus:hover{
+    background-color: #cf9393;
+}
+
+/* Tabel */
+table{
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th{
+    background-color: #c7d9ea;
+    color: #4a5563;
+}
+
+th, td{
+    border: 1px solid #e6e9f0;
+    padding: 10px;
+    text-align: center;
+}
+
+tr:nth-child(even){
+    background-color: #fafbfc;
+}
+
+/* Form */
+form{
+    margin-top: 20px;
+}
+
+input[type=text]{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 12px;
+    border: 1px solid #d8dde6;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+input[type=text]:focus{
+    border-color: #a8c5df;
+    outline: none;
+}
+
+/* Button */
+button{
+    background-color: #8bb8d9;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #7aa9cb;
+}
